@@ -32,7 +32,7 @@ function getRoleLabel(value: RoleValue) {
   return ROLES.find((r) => r.value === value)?.label ?? value;
 }
 
-type FromLanguageValue = LanguageValue | typeof LANGUAGE_SELECT_AUTO;
+type FromLanguageValue = LanguageValue | typeof LANGUAGE_SELECT_AUTO | typeof LANGUAGE_SELECT_NONE;
 
 function getLangLabel(value: LanguageValue | FromLanguageValue) {
   if (!value || value === LANGUAGE_SELECT_AUTO) return value === LANGUAGE_SELECT_AUTO ? "Auto-detect" : null;
