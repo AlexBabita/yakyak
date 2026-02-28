@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# YakYak.dev — Frontend
+
+Next.js frontend for **YakYak Team Talk Translator**: translate dev speak to PM, QA & designer speak.
+
+**PoC reference:** The original one-pager with the **Try to Translate** (“YakYak It”) flow lives at [yakyak.dev](https://yakyak.dev/). See [docs/POC_CONTEXT.md](docs/POC_CONTEXT.md) for flow and build notes.
 
 ## Getting Started
 
